@@ -26,20 +26,20 @@ This repo demonstrates a few time series bootstrap methods to synthesize price/r
 
 
 ## Summary Statistics on Original Real Price Data
-<img src="./nq_summary_stats.png" alt="NQ Summary Statistics" width="200"/>
+<img src="./nq_summary_stats.png" alt="NQ Summary Statistics" width="500"/>
 
 ## Comparing ACF and PACF of the Original and Synthesized Data
 #### ACF & PACF of Real Return Data
-<img src="acf_nq_real.png" alt="ACF NQ Real" width="200"/>
+<img src="acf_nq_real.png" alt="ACF NQ Real" width="450"/>
 
 ACF & PACF by CBB              |  ACF & PACF by i.i.d. Bootstrap
 :-----------------------------:|:--------------------------------------------:
-<img src="acf_nq_cbb.png" alt="ACF NQ CBB" width="200"/> | <img src="acf_nq_iidbs.png" alt="ACF NQ i.i.d. Bootstrap" width="200"/>
+<img src="acf_nq_cbb.png" alt="ACF NQ CBB" width="450"/> | <img src="acf_nq_iidbs.png" alt="ACF NQ i.i.d. Bootstrap" width="450"/>
 
 ## Price Paths from Synthesized Data
 Synthesized Price Path by CBB  |  Synthesized Price Path by i.i.d. Bootstrap
 :-----------------------------:|:--------------------------------------------:
-<img src="price_path_cbb.png" alt="NQ Price Path by CBB" width="200"/> | <img src="price_path_iidbs.png" alt="NQ Price Path by i.i.d. Bootstrap" width="200"/>
+<img src="price_path_cbb.png" alt="NQ Price Path by CBB" width="450"/> | <img src="price_path_iidbs.png" alt="NQ Price Path by i.i.d. Bootstrap" width="450"/>
 
 ## Future research:
 * Block bootstrap across correlated assets or asset classes.
